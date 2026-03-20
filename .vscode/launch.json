@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - CobblemonSizeVariationsJadeIntegration",
+        "order": 0
+      },
+      "projectName": "CobblemonSizeVariationsJadeIntegration",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcobblemonsizevariationjade%%C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - CobblemonSizeVariationsJadeIntegration",
+        "order": 1
+      },
+      "projectName": "CobblemonSizeVariationsJadeIntegration",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcobblemonsizevariationjade%%C:\\.dev\\CobblemonSizeVariationsJadeIntegration\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
